@@ -51,14 +51,17 @@ export default function ProjectImageSlider({
         className="flex w-full overflow-x-auto snap-x snap-mandatory [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
         >
         {images.map((image, index) => (
-          <div className="relative flex-none w-full h-[250px] snap-center bg-dark-100">
+          <div
+            key={`${image}-${index}`}
+            className="relative flex-none w-full h-[200px] snap-center"
+          >
             <Image
-                src={image}
-                alt={alt}
-                fill
-                className="object-contain"
+              src={image}
+              alt={`${alt} - Image ${index + 1}`}
+              fill
+              className="object-contain"
             />
-            </div>
+          </div>
         ))}
       </div>
 
