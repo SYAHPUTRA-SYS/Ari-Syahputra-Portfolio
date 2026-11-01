@@ -1,0 +1,178 @@
+{
+    "visual": {
+        "navbar": {
+            "links": [{
+                    "label": "Experience",
+                    "path": "#experience"
+                },
+                {
+                    "label": "Projects",
+                    "path": "#projects"
+                },
+                {
+                    "label": "Education",
+                    "path": "#education"
+                }
+            ]
+        },
+        "home": {
+            "sections": {
+                "banner": true,
+                "experience": true,
+                "project": true,
+                "education": true,
+                "testimonial": true
+            }
+        }
+    },
+    "personalInfo": {
+        "name": "Ari Syahputra, S.Kom",
+        "title": "Full Stack Developer",
+        "bio": "I am a Web Developer with a passion and expertise in website development, specifically in building modern, responsive, and functional web applications. I have experience working with various web technologies, including HTML, CSS, JavaScript, PHP, MySQL, and the Laravel framework."
+    },
+    "contactInfo": {
+        "email": "aryrealme@gmail.com",
+        "phone": "083842044340",
+        "linkedin": "https://wa.me/6283842044340",
+        "github": "https://github.com/SYAHPUTRA-SYS",
+        "twitter": "",
+        "website": "#!"
+    },
+    "skills": {
+        "languages": [
+            "JavaScript",
+            "Python",
+            "Java",
+            "php"
+        ],
+        "frameworks": [
+            "Laravel",
+            "Node.js"
+        ],
+        "databases": [
+            "MySQL",
+            "MongoDB",
+            "PostgreSQL"
+        ],
+        "tools": [
+            "Git",
+            "Docker",
+            "Kubernetes",
+            "Jenkins",
+            "AWS",
+            "GCP"
+        ]
+    },
+    "projects": [{
+            "id": "1",
+            "title": "Classification of Stunted Toddlers",
+            "description": "A web-based application designed to help monitor and classify stunting conditions in toddlers. This system allows users to manage toddler data, record growth measurements such as age, weight, and height, and generate stunting classification results. It also provides a dashboard to manage training data, view prediction results, and monitor toddler growth information efficiently. The application aims to support data-driven monitoring and early identification of potential stunting cases.",
+            "technologies": [
+                "Html",
+                "CSS",
+                "PHP",
+                "MySQL"
+            ],
+            "code_repo_url": "https://github.com/SYAHPUTRA-SYS/Klasifikasi-gizi-buruk-pada-balita-menggunakan-algoritma-C5.0-pemograman-php",
+            "images": [
+                "/assets/project1.png",
+                "/assets/stunting1.png",
+                "/assets/stunting2.png"
+            ]
+        },
+        {
+            "id": "2",
+            "title": "Graduate Student Room – Booking Requirements for Thesis Defense",
+            "description": "A web-based booking system designed to simplify the ordering and reservation of graduation and thesis defense equipment. This application allows students to browse available graduation supplies, select the required items, and place orders for their thesis defense and graduation ceremonies. It also helps administrators manage product data, monitor orders, and organize reservations efficiently. The system aims to make the ordering process more convenient, structured, and accessible for students.",
+            "technologies": [
+                "Html",
+                "CSS",
+                "PHP",
+                "Laravel",
+                "MySQL"
+            ],
+            "code_repo_url": "https://github.com/SYAHPUTRA-SYS/SewaJas",
+            "images": [
+                "/assets/sarjana1.png",
+                "/assets/sarjana2.png",
+                "/assets/sarjana3.png"
+            ]
+        },
+        {
+            "id": "3",
+            "title": "Classification of Stroke",
+            "description": "A web-based application developed to classify the risk of stroke using the C5.0 decision tree algorithm. The system allows users to input patient health data, such as age, gender, hypertension status, heart disease history, glucose level, and other relevant factors to generate stroke classification results. It also provides features for managing training data, performing data classification, and displaying prediction results. The application aims to support early stroke risk assessment through a data-driven classification process.",
+            "technologies": [
+                "Html",
+                "CSS",
+                "PHP",
+                "MySQL"
+            ],
+            "code_repo_url": "https://github.com/SYAHPUTRA-SYS/Klasifikasi-penyakit-stroke-menggunakan-algoritma-C5.0-pemograman-php",
+            "images": [
+                "/assets/stroke1.png",
+                "/assets/stroke2.png"
+            ]
+        }
+    ],
+    "workExperience": [{
+            "id": "1",
+            "company": "Universitas Malikussaleh",
+            "companyWebsite": "#!",
+            "role": "Web Development Intern",
+            "startDate": "3 Months",
+            "technologies": [
+                "Socket.io",
+                "Node.js",
+                "Express",
+                "React"
+            ],
+            "keyResponsibilities": [
+                "Developed and maintained web applications using PHP and Laravel as the backend framework.",
+                "Built responsive and user-friendly website interfaces using HTML and CSS.",
+                "Implemented backend functionality and application logic using Laravel.",
+                "Managed and integrated MySQL databases to store and retrieve application data.",
+                "Performed website testing, debugging, and troubleshooting to ensure application functionality.",
+                "Applied web development best practices to build structured, efficient, and maintainable applications."
+
+            ]
+        }
+
+    ],
+    "education": [{
+            "id": "1",
+            "institution": "Sarjana Teknik Informatika",
+            "degree": "Universitas Malikussaleh",
+            "location": "Lhokseumawe, Aceh | IPK: 3.53 / 4.00",
+            "description": "I am an Informatics Engineering graduate from Malikussaleh University, with a focus on information technology and software development. During my studies, I delved into various aspects of programming, website development, databases, as well as the analysis and implementation of algorithms. This education has helped me build a strong foundation in the field of technology and web-based application development.",
+            "startDate": "September 2021",
+            "endDate": "May 2026"
+        },
+        {
+            "id": "2",
+            "institution": "Multimedia",
+            "degree": "SMK Negeri 2 Lhokseumawe",
+            "location": "Lhokseumawe, Aceh",
+            "description": "I attended a vocational high school (SMK) majoring in Multimedia, where I studied various creative fields and digital technologies—such as graphic design, image and video processing, photography, and multimedia content creation. Throughout my studies, I developed technical skills, creativity, and problem-solving abilities within the process of producing digital work.",
+            "startDate": "2018",
+            "endDate": "2021"
+        }
+    ],
+    "testimonials": [{
+            "id": "1",
+            "name": "Jane Smith",
+            "avatar": "/assets/testimonial_1_avatar.jpg",
+            "title": "Project Manager",
+            "company": "Tech Solutions Inc.",
+            "feedback": "John is a fantastic developer who consistently delivers high-quality work. His ability to solve complex problems is impressive."
+        },
+        {
+            "id": "2",
+            "name": "Mike Johnson",
+            "avatar": "/assets/testimonial_2_avatar.jpg",
+            "title": "CEO",
+            "company": "Web Innovators LLC",
+            "feedback": "John is a highly skilled developer who brings a lot of value to our projects. His expertise in full stack development is top-notch."
+        }
+    ]
+}
