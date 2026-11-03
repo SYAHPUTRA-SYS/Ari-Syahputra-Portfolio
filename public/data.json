@@ -2,6 +2,14 @@
     "visual": {
         "navbar": {
             "links": [{
+                    "label": "Home",
+                    "path": "#home"
+                },
+                {
+                    "label": "Skills",
+                    "path": "#skills"
+                },
+                {
                     "label": "Experience",
                     "path": "#experience"
                 },
@@ -113,7 +121,31 @@
                 "/assets/stroke1.png",
                 "/assets/stroke2.png"
             ]
+        },
+        {
+            "id": "4",
+            "title": "FashionRakyat",
+            "description": "FashionRakyat is a straightforward e-commerce platform built using Laravel 13 and Bootstrap 5, designed to help small-scale businesses (MSMEs) in the clothing, trousers, and footwear sectors sell their products online without the need for a complex system. The platform features two distinct interfaces: a customer-facing side—accessible without requiring a login—for viewing catalogs and placing orders, and an admin side—protected by a login system—for managing products and orders. Each product supports size variants (such as S/M/L or 39/40/41) with stock tracking for every individual size, ensuring that customers can accurately select from the available options.",
+            "technologies": [
+                "Html",
+                "CSS",
+                "PHP",
+                "Laravel",
+                "MySQL"
+            ],
+            "code_repo_url": "https://github.com/SYAHPUTRA-SYS/FashionRakyat",
+            "images": [
+                "/assets/1.png",
+                "/assets/3.png",
+                "/assets/4.png",
+                "/assets/5.png",
+                "/assets/6.png",
+                "/assets/7.png",
+                "/assets/8.png",
+                "/assets/2.png"
+            ]
         }
+
     ],
     "workExperience": [{
             "id": "1",
